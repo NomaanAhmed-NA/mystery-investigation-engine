@@ -64,6 +64,21 @@ Choose option `5` from the main menu.
 
 ---
 
+## 🧪 Instructions for Testing
+
+To manually test the application's robust error handling and features:
+1. **Invalid Menu Input**: Try entering a letter (like `A`) instead of a number in the main menu to see the scanner error handling in action.
+2. **Invalid Suspect ID**: Choose option `2` to interview, then enter `99` (an out of bounds index) to trigger the `InvalidSuspectException`.
+3. **Valid Flow**: Complete a full case by examining evidence (e.g. `E01`), running analysis (`4`), and saving the report (`5`). Verify that `case_report_047.txt` is created in the project folder.
+
+---
+
+## 🖼️ Screenshots
+
+*(Note to student: Add screenshots of the terminal running the CLI menu, an interview in progress, and the generated case report text file here for submission.)*
+
+---
+
 ## ⚙️ Data Format Requirements
 
 This tool currently hardcodes dummy data for suspects and evidence directly inside `InvestigationManager.java` for testing purposes. 
